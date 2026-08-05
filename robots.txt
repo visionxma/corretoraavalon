@@ -1,0 +1,5 @@
+# robots.txt — Avalon Broker
+User-agent: *
+Allow: /
+
+Sitemap: https://corretoraavalon.com.br/sitemap.xml
