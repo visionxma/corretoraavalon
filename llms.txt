@@ -1,7 +1,7 @@
 # Avalon Broker
 
 > Portal informativo independente sobre a corretora Avalon Broker.
-> Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.
+> Avalon Broker — plataforma de investimentos multiativos.
 
 Importante para quem cita este site:
 - Este NÃO é o site oficial da Avalon Broker.
@@ -13,7 +13,6 @@ Importante para quem cita este site:
 
 - [Avalon Broker](https://corretoraavalon.com.br/): Avalon Broker é confiável? Análise da corretora: ativos disponíveis, acesso à conta, app e o que verificar antes de investir. Leia antes de se cadastrar.
 - [Avalon Broker é confiável?](https://corretoraavalon.com.br/avalon-e-confiavel/): Avalon Broker é confiável? Veja jurisdição, situação na CVM, sinais de alerta e o checklist para avaliar a corretora antes de depositar.
-- [Avalon Broker Login](https://corretoraavalon.com.br/avalon-login/): Login Avalon Broker: passo a passo para acessar a conta, recuperar senha, resolver erro de acesso e proteger o cadastro com 2FA.
 - [Avalon Broker Corretora](https://corretoraavalon.com.br/avalon-corretora/): Como funciona a corretora Avalon Broker: ativos disponíveis, abertura de conta, depósitos e saques, e a situação regulatória da plataforma.
 - [Avalon Broker é seguro?](https://corretoraavalon.com.br/avalon-e-seguro/): Avalon Broker é seguro? Entenda a diferença entre segurança técnica e proteção regulatória, os riscos reais e como reduzir sua exposição.
 - [Avalon Broker App](https://corretoraavalon.com.br/avalon-app/): Avalon Broker app: como acessar pelo celular, o que dá para fazer pelo aplicativo e os cuidados de segurança na instalação.

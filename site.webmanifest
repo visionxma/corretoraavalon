@@ -1,7 +1,7 @@
 {
   "name": "Avalon Broker",
   "short_name": "Avalon",
-  "description": "Site não oficial. Conteúdo informativo e de divulgação; não somos a corretora.",
+  "description": "Avalon Broker — plataforma de investimentos.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0c1a16",
