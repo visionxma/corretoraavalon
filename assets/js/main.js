@@ -1,46 +1,299 @@
 (function () {
-'use strict';
-Menu mobile
----------------------------------------------------------------------- */
-var toggle = document.querySelector('.nav-toggle');
-var nav = document.querySelector('.site-nav');
-if (toggle && nav) {
-toggle.addEventListener('click', function () {
-var isOpen = toggle.getAttribute('aria-expanded') === 'true';
-toggle.setAttribute('aria-expanded', String(!isOpen));
-nav.setAttribute('data-open', String(!isOpen));
-});
-nav.addEventListener('click', function (event) {
-if (event.target.tagName === 'A') {
-toggle.setAttribute('aria-expanded', 'false');
-nav.setAttribute('data-open', 'false');
-}
-});
-document.addEventListener('keydown', function (event) {
-if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
-toggle.setAttribute('aria-expanded', 'false');
-nav.setAttribute('data-open', 'false');
-toggle.focus();
-}
-});
-}
-Botão "voltar ao topo"
----------------------------------------------------------------------- */
-var toTop = document.querySelector('.to-top');
-if (toTop) {
-var ticking = false;
-var onScroll = function () {
-if (ticking) return;
-ticking = true;
-window.requestAnimationFrame(function () {
-toTop.classList.toggle('is-visible', window.scrollY > 700);
-ticking = false;
-});
-};
-window.addEventListener('scroll', onScroll, { passive: true });
-toTop.addEventListener('click', function () {
-var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
-});
-}
+  'use strict';
+
+  /* ----------------------------------------------------------------------
+     Menu (botão hambúrguer, em todas as larguras)
+     ---------------------------------------------------------------------- */
+  var toggle = document.querySelector('.nav-toggle');
+  var nav = document.querySelector('.site-nav');
+  if (toggle && nav) {
+    var setOpen = function (open) {
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', toggle.getAttribute(open ? 'data-fechar' : 'data-abrir') ||
+        (open ? 'Fechar menu de navegação' : 'Abrir menu de navegação'));
+      nav.setAttribute('data-open', String(open));
+    };
+    toggle.addEventListener('click', function (event) {
+      event.stopPropagation();
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+    nav.addEventListener('click', function (event) {
+      if (event.target.tagName === 'A') setOpen(false);
+    });
+    document.addEventListener('click', function (event) {
+      if (toggle.getAttribute('aria-expanded') === 'true' && !nav.contains(event.target)) setOpen(false);
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  }
+
+  /* ----------------------------------------------------------------------
+     Botão "voltar ao topo"
+     ---------------------------------------------------------------------- */
+  var toTop = document.querySelector('.to-top');
+  if (toTop) {
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(function () {
+        toTop.classList.toggle('is-visible', window.scrollY > 700);
+        ticking = false;
+      });
+    }, { passive: true });
+    toTop.addEventListener('click', function () {
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
+    });
+  }
+
+  /* ----------------------------------------------------------------------
+     Cotações ao vivo (TradingView), carregadas só quando a seção aparece.
+     Sem JavaScript ou sem rede, fica o gráfico estático de cada cartão.
+     ---------------------------------------------------------------------- */
+  var cotacoes = document.querySelectorAll('.cotacao[data-simbolo]');
+  var localeTV = document.documentElement.getAttribute('data-tv') || 'br';
+  if (cotacoes.length) {
+    var carregar = function (cartao) {
+      var alvo = document.createElement('div');
+      alvo.className = 'tradingview-widget-container__widget';
+      var script = document.createElement('script');
+      script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js';
+      script.async = true;
+      script.textContent = JSON.stringify({
+        symbol: cartao.getAttribute('data-simbolo'),
+        width: '100%', height: '100%', locale: localeTV, dateRange: '12M',
+        colorTheme: 'dark', isTransparent: false, autosize: true, largeChartUrl: ''
+      });
+      var caixa = document.createElement('div');
+      caixa.className = 'tradingview-widget-container';
+      caixa.style.cssText = 'position:absolute;inset:0';
+      caixa.appendChild(alvo);
+      caixa.appendChild(script);
+      cartao.appendChild(caixa);
+    };
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function (entradas) {
+        entradas.forEach(function (e) {
+          if (e.isIntersecting) { carregar(e.target); obs.unobserve(e.target); }
+        });
+      }, { rootMargin: '200px' });
+      cotacoes.forEach(function (c) { obs.observe(c); });
+    } else {
+      cotacoes.forEach(carregar);
+    }
+  }
+
+  /* ----------------------------------------------------------------------
+     Pop-up de boas-vindas (no estilo do safirion.com.br)
+     Abre uma vez por sessão: em 2 s ou aos 35% de rolagem, o que vier primeiro.
+     O conteúdo vem do <template id="pp-modelo"> da página, já no idioma dela.
+     Console: avalonPopup.abrir() / .limpar() / .estado()
+     ---------------------------------------------------------------------- */
+  var modelo = document.getElementById('pp-modelo');
+  if (modelo && 'content' in modelo) {
+    var CHAVE = 'avalon_boasvindas_v1';
+    var guardado = function () { try { return !!sessionStorage.getItem(CHAVE); } catch (e) { return false; } };
+    var guardar = function () { try { sessionStorage.setItem(CHAVE, '1'); } catch (e) {} };
+    var cx = null, anterior = null, aberto = false, espera = null;
+
+    var tecla = function (e) {
+      if (!aberto) return;
+      if (e.key === 'Escape') { fechar(); return; }
+      if (e.key !== 'Tab') return;
+      var f = cx.querySelectorAll('button, a[href]');
+      var pri = f[0], ult = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === pri) { e.preventDefault(); ult.focus(); }
+      else if (!e.shiftKey && document.activeElement === ult) { e.preventDefault(); pri.focus(); }
+    };
+    var fechar = function () {
+      if (!aberto) return;
+      aberto = false;
+      guardar();
+      document.removeEventListener('keydown', tecla);
+      cx.removeAttribute('data-visivel');
+      document.body.classList.remove('pp-travado');
+      var el = cx;
+      setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 320);
+      if (anterior && anterior.focus) anterior.focus();
+    };
+    var abrir = function () {
+      if (aberto) return;
+      aberto = true;
+      anterior = document.activeElement;
+      cx = modelo.content.firstElementChild.cloneNode(true);
+      document.body.appendChild(cx);
+      cx.setAttribute('data-aberto', '');
+      document.body.classList.add('pp-travado');
+      requestAnimationFrame(function () { cx.setAttribute('data-visivel', ''); });
+      (cx.querySelector('.pp__cx[tabindex]') || cx.querySelector('.pp__x')).focus();
+      cx.querySelector('.pp__x').addEventListener('click', fechar);
+      cx.querySelector('.pp__btn').addEventListener('click', function () { guardar(); setTimeout(fechar, 0); });
+      cx.addEventListener('click', function (e) { if (e.target === cx) fechar(); });
+      var cp = cx.querySelector('.pp__copiar');
+      if (cp) cp.addEventListener('click', function () {
+        var ok = function () { var t = cp.textContent; cp.textContent = cp.getAttribute('data-copiado'); setTimeout(function () { cp.textContent = t; }, 1800); };
+        try { navigator.clipboard.writeText('WELCOME100').then(ok, ok); } catch (e) { ok(); }
+      });
+      document.addEventListener('keydown', tecla);
+    };
+    var aoRolar = function () {
+      var h = document.documentElement;
+      if (h.scrollTop / ((h.scrollHeight - h.clientHeight) || 1) >= 0.35) disparar();
+    };
+    var disparar = function () {
+      clearTimeout(espera);
+      window.removeEventListener('scroll', aoRolar);
+      abrir();
+    };
+    window.avalonPopup = {
+      abrir: abrir,
+      limpar: function () { try { sessionStorage.removeItem(CHAVE); } catch (e) {} return 'liberado'; },
+      estado: function () { return guardado() ? 'já apareceu nesta sessão' : 'liberado'; }
+    };
+    if (!guardado()) {
+      espera = setTimeout(disparar, 2000);
+      window.addEventListener('scroll', aoRolar, { passive: true });
+    }
+  }
+
+  /* ----------------------------------------------------------------------
+     Animação ao rolar: blocos aparecem suavemente quando entram na tela
+     ---------------------------------------------------------------------- */
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var alvos = document.querySelectorAll('main h2, main .foto, main .card, main .recurso, main .faq__item, main .cotacoes, main .check-list li, main .steps li, main .callout, main .lojas');
+    var obsRevela = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('visivel'); obsRevela.unobserve(e.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    alvos.forEach(function (el) {
+      if (el.getBoundingClientRect().top > window.innerHeight) { el.classList.add('revela'); obsRevela.observe(el); }
+    });
+  }
+
+  /* ----------------------------------------------------------------------
+     Faixa de cotações ao vivo (TradingView) logo abaixo do topo da home
+     ---------------------------------------------------------------------- */
+  var heroHome = document.querySelector('main > .hero');
+  if (heroHome) {
+    var fita = document.createElement('div');
+    fita.className = 'fita-cotacoes';
+    fita.setAttribute('aria-hidden', 'true');
+    heroHome.insertAdjacentElement('afterend', fita);
+    var carregarFita = function () {
+      var caixa = document.createElement('div');
+      caixa.className = 'tradingview-widget-container';
+      caixa.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+      var sc = document.createElement('script');
+      sc.src = 'https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+      sc.async = true;
+      sc.textContent = JSON.stringify({
+        symbols: [
+          { proName: 'BITSTAMP:BTCUSD', title: 'BTC/USD' }, { proName: 'BITSTAMP:ETHUSD', title: 'ETH/USD' },
+          { proName: 'FX:EURUSD', title: 'EUR/USD' }, { proName: 'FX:GBPUSD', title: 'GBP/USD' },
+          { proName: 'FX:USDJPY', title: 'USD/JPY' }, { proName: 'OANDA:XAUUSD', title: 'XAU/USD' },
+          { proName: 'OANDA:SPX500USD', title: 'S&P 500' }, { proName: 'OANDA:NAS100USD', title: 'Nasdaq 100' },
+          { proName: 'TVC:USOIL', title: 'WTI' }
+        ],
+        showSymbolLogo: true, isTransparent: true, displayMode: 'adaptive', colorTheme: 'dark',
+        locale: document.documentElement.getAttribute('data-tv') || 'br'
+      });
+      caixa.appendChild(sc);
+      fita.appendChild(caixa);
+    };
+    if ('requestIdleCallback' in window) requestIdleCallback(carregarFita, { timeout: 2500 });
+    else setTimeout(carregarFita, 1200);
+  }
+})();
+
+// Blog: filtro por categoria e "carregar mais"
+(function () {
+  var grade = document.querySelector('.bq__grade[data-visiveis]');
+  if (!grade) return;
+  var passo = +grade.getAttribute('data-visiveis') || 12, limite = passo, cat = '';
+  var cards = [].slice.call(grade.querySelectorAll('.bq__card'));
+  var mais = document.querySelector('.bq__mais');
+  function aplicar() {
+    var n = 0, total = 0;
+    cards.forEach(function (c) {
+      var ok = !cat || c.getAttribute('data-cat') === cat;
+      if (ok) total++;
+      var mostra = ok && n < limite;
+      if (mostra) n++;
+      c.classList.toggle('is-oculto', !mostra);
+    });
+    if (mais) mais.hidden = n >= total;
+  }
+  [].forEach.call(document.querySelectorAll('.bq__cat'), function (b) {
+    b.addEventListener('click', function () {
+      [].forEach.call(document.querySelectorAll('.bq__cat'), function (x) { x.classList.toggle('is-ativo', x === b); });
+      cat = b.getAttribute('data-cat'); limite = passo; aplicar();
+    });
+  });
+  if (mais) mais.addEventListener('click', function () { limite += passo; aplicar(); });
+  aplicar();
+})();
+
+// Página de artigo do blog: barra de progresso, sumário que acompanha a leitura,
+// contador de visitas (uma por navegador por dia) e botão de compartilhar.
+(function () {
+  var ap = document.querySelector('.ap');
+  if (!ap) return;
+  var texto = ap.querySelector('.ap__texto');
+  var barra = ap.querySelector('.ap__barra'), trilho = ap.querySelector('.ap__trilho');
+  var topoBarra = document.querySelector('.ap__progresso span');
+  var itens = [].map.call(ap.querySelectorAll('.ap__trilho li'), function (li) {
+    var a = li.querySelector('a'); return { li: li, h: document.getElementById(a.getAttribute('href').slice(1)) };
+  }).filter(function (x) { return x.h; });
+  var pedido = false;
+  function atualizar() {
+    pedido = false;
+    var r = texto.getBoundingClientRect(), vh = window.innerHeight;
+    var p = Math.min(1, Math.max(0, (vh * 0.35 - r.top) / Math.max(1, r.height - vh * 0.35)));
+    if (topoBarra) topoBarra.style.width = (p * 100) + '%';
+    var linha = vh * 0.3, atual = -1;
+    itens.forEach(function (x, i) { if (x.h.getBoundingClientRect().top <= linha) atual = i; });
+    itens.forEach(function (x, i) { x.li.classList.toggle('is-lido', i < atual); x.li.classList.toggle('is-atual', i === atual); });
+    if (barra && trilho) {
+      // a barra cresce até o item que está sendo lido, proporcional ao quanto da seção já passou
+      var alt = trilho.clientHeight;
+      if (itens.length && atual >= 0) {
+        var prox = itens[atual + 1], ini = itens[atual].h.getBoundingClientRect().top, fim = prox ? prox.h.getBoundingClientRect().top : r.bottom;
+        var frac = Math.min(1, Math.max(0, (linha - ini) / Math.max(1, fim - ini)));
+        var li = itens[atual].li, y0 = li.offsetTop, y1 = prox ? prox.li.offsetTop : alt;
+        barra.style.height = (y0 + (y1 - y0) * frac) + 'px';
+      } else barra.style.height = itens.length ? '0px' : (p * alt) + 'px';
+    }
+  }
+  function pedir() { if (!pedido) { pedido = true; requestAnimationFrame(atualizar); } }
+  window.addEventListener('scroll', pedir, { passive: true });
+  window.addEventListener('resize', pedir);
+  atualizar();
+
+  // visitas: soma uma por navegador por dia; se o contador não responder, o número fica escondido
+  var slug = ap.getAttribute('data-slug'), api = ap.getAttribute('data-api');
+  if (slug && api && window.fetch) {
+    var hoje = new Date().toISOString().slice(0, 10), chave = 'vis:' + slug, ja = null;
+    try { ja = localStorage.getItem(chave); } catch (e) {}
+    fetch(api + '/v/' + slug, { method: ja === hoje ? 'GET' : 'POST' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      if (!d || typeof d.n !== 'number' || d.n < 1) return;
+      try { localStorage.setItem(chave, hoje); } catch (e) {}
+      var txt = d.n.toLocaleString(document.documentElement.lang || 'pt-BR');
+      [].forEach.call(ap.querySelectorAll('[data-visitas]'), function (el) { el.querySelector('b').textContent = txt; el.hidden = false; });
+    }).catch(function () {});
+  }
+
+  // compartilhar: menu nativo do celular, ou copia o link
+  var bt = ap.querySelector('.ap__compartilhar');
+  if (bt) bt.addEventListener('click', function () {
+    var url = location.href.split('#')[0], titulo = document.title;
+    if (navigator.share) { navigator.share({ title: titulo, url: url }).catch(function () {}); return; }
+    var feito = function () { var o = bt.innerHTML; bt.textContent = ap.getAttribute('data-copiado'); setTimeout(function () { bt.innerHTML = o; }, 1800); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(feito, function () {}); else feito();
+  });
 })();

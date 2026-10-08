@@ -1,11 +1,11 @@
 {
-  "name": "Avalon Broker",
+  "name": "Avalon",
   "short_name": "Avalon",
-  "description": "Avalon Broker — plataforma de investimentos.",
+  "description": "Avalon — plataforma de investimentos.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0c1a16",
-  "theme_color": "#0c1a16",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "lang": "pt-BR",
   "icons": [
     {

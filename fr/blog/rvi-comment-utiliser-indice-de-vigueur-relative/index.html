@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" data-tema="dark" data-tv="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>RVI : comment utiliser l'Indice de Vigueur Relative en analyse | Blog Avalon</title>
+  <meta name="description" content="Comprenez ce qu'est l'Indice de Vigueur Relative (RVI), comment calculer la formule et interpréter croisements et divergences en pratique.">
+  <link rel="canonical" href="https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://corretoraavalon.com.br/blog/indice-de-vigor-relativo-rvi-como-usar/">
+  <link rel="alternate" hreflang="en" href="https://corretoraavalon.com.br/en/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="es" href="https://corretoraavalon.com.br/es/blog/indice-de-vigor-relativo-rvi-como-usar/">
+  <link rel="alternate" hreflang="ar" href="https://corretoraavalon.com.br/ar/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="bn" href="https://corretoraavalon.com.br/bn/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="de" href="https://corretoraavalon.com.br/de/blog/rvi-relativer-vigor-index-anwendung/">
+  <link rel="alternate" hreflang="fil" href="https://corretoraavalon.com.br/fil/blog/rvi-paano-gamitin-ang-relative-vigor-index/">
+  <link rel="alternate" hreflang="fr" href="https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/">
+  <link rel="alternate" hreflang="hi" href="https://corretoraavalon.com.br/hi/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="id" href="https://corretoraavalon.com.br/id/blog/rvi-cara-menggunakan-relative-vigor-index/">
+  <link rel="alternate" hreflang="it" href="https://corretoraavalon.com.br/it/blog/rvi-come-usare-lindice-di-vigore-relativo/">
+  <link rel="alternate" hreflang="ru" href="https://corretoraavalon.com.br/ru/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="sv" href="https://corretoraavalon.com.br/sv/blog/rvi-index-relativ-kraft-hur-anvanda/">
+  <link rel="alternate" hreflang="th" href="https://corretoraavalon.com.br/th/blog/rvi-relative-vigor-index-how-to-use/">
+  <link rel="alternate" hreflang="tr" href="https://corretoraavalon.com.br/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/">
+  <link rel="alternate" hreflang="vi" href="https://corretoraavalon.com.br/vi/blog/rvi-chi-so-suc-song-tuong-doi-cach-su-dung/">
+  <link rel="alternate" hreflang="zh-CN" href="https://corretoraavalon.com.br/zh/blog/relative-vigor-index-rvi-how-to-use/">
+  <link rel="alternate" hreflang="x-default" href="https://corretoraavalon.com.br/en/blog/relative-vigor-index-rvi-how-to-use/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Avalon">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="RVI : comment utiliser l'Indice de Vigueur Relative en analyse">
+  <meta property="og:description" content="Comprenez ce qu'est l'Indice de Vigueur Relative (RVI), comment calculer la formule et interpréter croisements et divergences en pratique.">
+  <meta property="og:url" content="https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/">
+  <meta property="og:site_name" content="Avalon">
+  <meta property="og:image" content="https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp">
+  <meta property="og:image:alt" content="Avalon — Blog Avalon">
+  <meta name="twitter:image" content="https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RVI : comment utiliser l'Indice de Vigueur Relative en analyse">
+  <meta name="twitter:description" content="Comprenez ce qu'est l'Indice de Vigueur Relative (RVI), comment calculer la formule et interpréter croisements et divergences en pratique.">
+  <meta name="twitter:label1" content="Rédigé par">
+  <meta name="twitter:data1" content="Avalon">
+  <meta name="twitter:label2" content="Temps de lecture">
+  <meta name="twitter:data2" content="5 minutes">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/bricolage-grotesque-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610072237">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/#artigo",
+      "headline": "RVI : comment utiliser l'Indice de Vigueur Relative en analyse",
+      "description": "Comprenez ce qu'est l'Indice de Vigueur Relative (RVI), comment calculer la formule et interpréter croisements et divergences en pratique.",
+      "url": "https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/",
+      "inLanguage": "fr",
+      "datePublished": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-10-07T09:00:00-03:00",
+      "image": "https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp",
+      "articleSection": "Indicateurs",
+      "author": {
+        "@type": "Organization",
+        "name": "Avalon — Rubrique Analyse",
+        "url": "https://corretoraavalon.com.br/fr/blog/"
+      },
+      "publisher": {
+        "@id": "https://corretoraavalon.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/",
+      "isPartOf": {
+        "@id": "https://corretoraavalon.com.br/fr/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://corretoraavalon.com.br/fr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://corretoraavalon.com.br/fr/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "RVI : comment utiliser l'Indice de Vigueur Relative en analyse",
+          "item": "https://corretoraavalon.com.br/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/fr/" aria-label="Avalon — page d’accueil">
+          <span class="wordmark">
+          <img class="wordmark__logo" src="/assets/img/logo-avalon-escuro.png" alt="Avalon" width="109" height="32" decoding="async">
+          <span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Ouvrir le menu de navigation"
+                data-abrir="Ouvrir le menu de navigation" data-fechar="Fermer le menu de navigation">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Choisir la langue"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="22" height="16"><span>fr</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/indice-de-vigor-relativo-rvi-como-usar/" hreflang="pt-BR" lang="pt-BR"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/relative-vigor-index-rvi-how-to-use/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/indice-de-vigor-relativo-rvi-como-usar/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/relative-vigor-index-rvi-how-to-use/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/relative-vigor-index-rvi-how-to-use/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/rvi-relativer-vigor-index-anwendung/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/rvi-paano-gamitin-ang-relative-vigor-index/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/rvi-comment-utiliser-indice-de-vigueur-relative/" hreflang="fr" lang="fr" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/relative-vigor-index-rvi-how-to-use/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/rvi-cara-menggunakan-relative-vigor-index/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/rvi-come-usare-lindice-di-vigore-relativo/" hreflang="it" lang="it"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/relative-vigor-index-rvi-how-to-use/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/rvi-index-relativ-kraft-hur-anvanda/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/rvi-relative-vigor-index-how-to-use/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/rvi-goreceli-canlilik-endeksi-nasil-kullanilir/" hreflang="tr" lang="tr"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/rvi-chi-so-suc-song-tuong-doi-cach-su-dung/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/relative-vigor-index-rvi-how-to-use/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Navigation principale">
+        <ul>
+          <li><a href="/fr/">Accueil</a></li>
+          <li><a href="/fr/avalon-avis-fiable/">Fiable ?</a></li>
+          <li><a href="/fr/avalon-connexion/">Connexion</a></li>
+          <li><a href="/fr/avalon-courtier/">Le courtier</a></li>
+          <li><a href="/fr/avalon-securite/">Sécurité</a></li>
+          <li><a href="/fr/avalon-application/">Application</a></li>
+          <li><a href="/fr/meilleurs-courtiers/">Meilleurs courtiers</a></li>
+          <li><a href="/fr/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.avalonbroker.io/fr/register?afftrack=avalon"
+           target="_blank" rel="noopener sponsored nofollow">Créer un compte</a>
+        <a class="btn btn--outline btn--sm" href="/fr/avalon-connexion/">Connexion</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Fil d’Ariane">
+    <div class="container ap__trilha">
+      <ol>
+        <li><a href="/fr/">Accueil</a></li>
+        <li><a href="/fr/blog/">Blog</a></li>
+        <li><span aria-current="page">RVI : comment utiliser l'Indice de Vigueur Relative en analyse</span></li>
+      </ol>
+      <a class="ap__voltar" href="/fr/blog/">Retour</a>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="indice-de-vigor-relativo-rvi-como-usar" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Lien copié">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-09-24">24 sept. 2026</time><span class="ap__sep">4 min de lecture</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> vues</span></span>
+            </div>
+            <p class="ap__atual">Mis à jour le: <time datetime="2026-10-07">7 octobre 2026</time></p>
+            <span class="bq__tag">Indicateurs</span>
+            <h1>RVI : comment utiliser l'Indice de Vigueur Relative en analyse</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span><span><strong>Rubrique Analyse</strong><small>Rubrique Avalon</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/avalon-corretora-04.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Sommaire">
+              <p class="ap__indice-tit">Sommaire</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#comment-le-rvi-est-calcule">Comment le RVI est calculé</a></li>
+                <li><a href="#comment-interpreter-les-signaux">Comment interpréter les signaux</a></li>
+                <li><a href="#un-exemple-numerique">Un exemple numérique</a></li>
+                <li><a href="#erreurs-courantes-et-precautions-a-prendre-avec-le-rvi">Erreurs courantes et précautions à prendre avec le RVI</a></li>
+                <li><a href="#mettre-le-rvi-en-pratique">Mettre le RVI en pratique</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Retour en haut</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            <p>L'Indice de Vigueur Relative, connu sous le sigle RVI (de l'anglais Relative Vigor Index), est un indicateur de momentum qui tente de répondre à une question simple : la force qui pousse le prix vers le haut ou vers le bas est-elle réellement soutenue, ou n'est-ce qu'un soubresaut passager ? Contrairement aux moyennes mobiles, qui regardent seulement où le prix se dirige, le RVI regarde <em>comment</em> la bougie s'est formée, en comparant la clôture à l'ouverture et en reliant cette différence à l'amplitude totale de la période.</p><p>La logique derrière cela vient de l'observation que, dans des tendances haussières saines, les prix ont tendance à clôturer près du sommet de la bougie. Dans les tendances baissières, l'inverse se produit : la clôture reste près du creux. Quand cela cesse de se produire, même si le prix continue de monter ou de baisser, le RVI signale déjà que le souffle du mouvement s'affaiblit.</p><h2 id="comment-le-rvi-est-calcule">Comment le RVI est calculé</h2><p>La formule de base pour une seule bougie est : RVI = (Clôture − Ouverture) ÷ (Sommet − Creux). Le résultat varie entre -1 et 1. Des valeurs proches de 1 montrent une bougie à forte force acheteuse, avec la clôture collée au sommet. Des valeurs proches de -1 indiquent l'inverse, une pression vendeuse dominante.</p><p>En pratique, personne n'utilise la valeur d'une seule bougie isolée, car le bruit serait énorme. C'est pourquoi la version utilisée sur les plateformes d'analyse lisse ce calcul avec une moyenne mobile simple, généralement sur 10 périodes, aussi bien au numérateur qu'au dénominateur. Le résultat est une ligne plus stable, accompagnée d'une seconde ligne, appelée ligne de signal, qui est généralement une moyenne pondérée sur 4 périodes du RVI lui-même. C'est le croisement entre ces deux lignes que la plupart des traders observent.</p><h2 id="comment-interpreter-les-signaux">Comment interpréter les signaux</h2><p>Le signal le plus courant est le croisement : quand le RVI croise la ligne de signal de bas en haut, de nombreux traders y voient un indice que la force acheteuse gagne du terrain. Le croisement inverse, de haut en bas, suggère l'opposé. Ces croisements fonctionnent mieux quand ils confirment un mouvement déjà présent sur le graphique de prix, plutôt que comme déclencheur isolé.</p><p>Le second usage, plus précieux pour ceux qui ont déjà de l'expérience, est la divergence. Si le prix d'un actif atteint un nouveau sommet, mais que le RVI atteint un sommet plus bas que le précédent, c'est une divergence baissière : le prix a monté, mais la vigueur derrière la hausse a diminué. Le raisonnement inverse vaut pour les creux : un prix qui fait un creux plus bas pendant que le RVI monte est un signal que la pression vendeuse pourrait s'épuiser.</p><h2 id="un-exemple-numerique">Un exemple numérique</h2><p>Imaginez une action négociée à R$ 38,00 à l'ouverture de la séance. Pendant la journée, elle oscille entre un creux de R$ 37,80 et un sommet de R$ 39,50, clôturant à R$ 39,20. En appliquant la formule pour une bougie : (39,20 − 38,00) ÷ (39,50 − 37,80) = 1,20 ÷ 1,70 = 0,70. Cette valeur isolée montre déjà une bougie forte, avec la clôture très proche du sommet du jour. Si, les jours suivants, le prix continue de monter mais que ce ratio calculé descend à 0,50, puis 0,30, cela montre une baisse de vigueur même avec le prix encore en hausse — une alerte indiquant que la tendance pourrait perdre du carburant avant même de s'inverser sur le graphique.</p><h2 id="erreurs-courantes-et-precautions-a-prendre-avec-le-rvi">Erreurs courantes et précautions à prendre avec le RVI</h2><p>La première erreur est de traiter le RVI comme un indicateur anticipatif parfait. Il est, par construction, un indicateur de confirmation et de force, pas de prévision de la prochaine bougie. La deuxième erreur est de l'utiliser seul : comme tout oscillateur basé sur le prix, il peut générer de faux signaux sur des marchés sans direction définie, allant et venant autour de la ligne de signal sans que rien de pertinent ne se passe sur le prix. C'est pourquoi de nombreux traders combinent le RVI avec une lecture de tendance plus large, comme une moyenne mobile de période plus longue, en utilisant l'oscillateur seulement pour chronométrer les entrées dans une direction déjà identifiée.</p><p>Il convient aussi de rappeler qu'aucun indicateur technique ne garantit un résultat. Le RVI aide à organiser la lecture de force et de faiblesse d'un mouvement, mais le marché peut invalider n'importe quel signal à tout moment, et trader implique toujours un risque de perte.</p><h2 id="mettre-le-rvi-en-pratique">Mettre le RVI en pratique</h2><p>Pour ceux qui débutent, une façon simple de tester l'indicateur est d'observer un actif que vous suivez déjà et de noter, pendant une semaine, les croisements entre le RVI et la ligne de signal, en comparant avec ce qui s'est passé sur le prix juste après. Cela crée une référence personnelle sur la façon dont l'indicateur se comporte pour cet actif spécifique, avant de penser à l'utiliser pour prendre de vraies décisions. Sur une plateforme comme Avalon, il est possible d'ajouter le RVI au graphique et de visualiser ce comportement côte à côte avec le prix, ce qui facilite grandement ce type d'étude avant toute opération.</p>
+            <div class="bq-post__cta">
+              <p><strong>Entraînez-vous avant de prendre des risques.</strong> Ouvrez votre compte Avalon et testez vos idées sur le compte démo avec 10 000 R$ virtuels.</p>
+              <a class="btn btn--primary" href="https://trade.avalonbroker.io/fr/register?afftrack=avalon" target="_blank" rel="noopener sponsored nofollow">Créer un compte gratuit</a>
+            </div>
+            <div class="ap__fim">
+              <p>Mis à jour le: <time datetime="2026-10-07">7 oct. 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> vues</span></span><button class="ap__compartilhar" type="button">Partager <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#16a34a" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M7 5v14M12 3v18M17 7v10" stroke="#fff" stroke-width="1.6"/><rect x="5.5" y="8" width="3" height="6" rx=".6" fill="#fff"/><rect x="10.5" y="6" width="3" height="9" rx=".6" fill="#fff"/><rect x="15.5" y="9" width="3" height="5" rx=".6" fill="#fff"/></svg></span>
+              <div><strong>Rubrique Analyse</strong><p>Explique graphiques, indicateurs et stratégies de trading : comment ils fonctionnent, où ils échouent et comment les tester d’abord.</p></div>
+            </div>
+          </div>
+        </div>
+        <aside class="ap__rel">
+          <h2>Articles similaires</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/fr/blog/quest-ce-que-lindicateur-adx/"><img src="/assets/img/avalon-corretora-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Qu'est-ce que l'indicateur ADX et comment il fonctionne</span><span class="bq__meta">24/09/2026 · 4 min de lecture</span></a>
+            <a class="bq__card" href="/fr/blog/quest-ce-que-loscillateur-stochastique/"><img src="/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Qu'est-ce que l'oscillateur stochastique et comment il fonctionne</span><span class="bq__meta">24/09/2026 · 4 min de lecture</span></a>
+            <a class="bq__card" href="/fr/blog/average-true-range-atr/"><img src="/assets/img/avalon-corretora-04.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Qu'est-ce que l'Average True Range (ATR) et comment le calculer</span><span class="bq__meta">24/09/2026 · 4 min de lecture</span></a>
+          </div>
+        </aside>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__logo" src="/assets/img/logo-avalon.png" alt="Avalon" width="137" height="40" decoding="async">
+            <span class="wordmark__text"></span>
+          </span></span>
+          <p class="footer__copy">Copyright © 2026 Avalon.<br>
+            Tous droits réservés.<br>
+            Site officiel.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Entreprise</h2>
+          <ul>
+            <li><a href="/fr/">Accueil</a></li>
+            <li><a href="/fr/avalon-avis-fiable/">Avalon est-elle fiable ?</a></li>
+            <li><a href="/fr/avalon-connexion/">Méthodes de connexion</a></li>
+            <li><a href="/fr/avalon-courtier/">Découvrir le courtier</a></li>
+            <li><a href="/fr/avalon-securite/">Sécurité du courtier</a></li>
+            <li><a href="/fr/avalon-application/">Application</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>Contact</h2>
+          <p><a href="mailto:contato@corretoraavalon.com.br">contato@corretoraavalon.com.br</a></p>
+          <p class="footer__suporte"><span>Gestionnaire de compte 24h/24</span><a href="mailto:suporte@corretoraavalon.com.br">suporte@corretoraavalon.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>Avalon est enregistrée à Saint-Vincent-et-les-Grenadines (SVG), ne dispose pas d’autorisation de la Comissão de Valores Mobiliários (CVM), le régulateur des marchés financiers du Brésil, et peut ne pas être autorisée par le régulateur financier de votre pays : vérifiez avant d’ouvrir un compte. Aucune information présentée ici ne doit être interprétée comme une offre de services financiers. Rien ne garantit que des projections ou des stratégies aboutissent à des performances déterminées, et les performances passées ne préjugent pas des résultats futurs. La volatilité des marchés peut entraîner des variations importantes des rendements. Les produits dérivés et les produits à effet de levier sont complexes et présentent un risque élevé : il est essentiel d’avoir conscience de la possibilité de pertes, y compris la perte totale du capital investi. N’investissez jamais des sommes que vous ne pouvez pas vous permettre de perdre.</p>
+        <p class="footer__links">
+          <a href="/fr/avalon-questions-frequentes/">Questions fréquentes</a>
+          <a href="/fr/contact/">Contact</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Revenir en haut de la page">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Fermer">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">de 100 %</span></h2>
+          <p>Déposez avec le code <strong>WELCOME100</strong> et recevez 100 % de bonus sur le montant déposé.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Code</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copié !">Copier</button></div>
+          <a class="pp__btn" href="https://trade.avalonbroker.io/fr/register?afftrack=avalon" target="_blank" rel="noopener sponsored nofollow">En profiter</a>
+          <p class="pp__mini">Soumis aux conditions de la promotion. Le trading de produits à effet de levier comporte un risque de perte.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=202610072237" defer></script>
+</body>
+</html>

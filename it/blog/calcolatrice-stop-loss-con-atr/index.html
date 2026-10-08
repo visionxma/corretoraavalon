@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr" data-tema="dark" data-tv="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===== SEO principal ===== -->
+  <title>Calcolatrice di stop loss con ATR: come definire la distanza | Blog Avalon</title>
+  <meta name="description" content="Impara la formula dello stop basato sull'ATR, vedi un esempio risolto in reais con size di posizione e capisci perché il moltiplicatore non è fisso.">
+  <link rel="canonical" href="https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/">
+  <!--hreflang-->
+  <link rel="alternate" hreflang="pt-BR" href="https://corretoraavalon.com.br/blog/calculadora-de-stop-loss-com-atr/">
+  <link rel="alternate" hreflang="en" href="https://corretoraavalon.com.br/en/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="es" href="https://corretoraavalon.com.br/es/blog/calculadora-de-stop-loss-con-atr/">
+  <link rel="alternate" hreflang="ar" href="https://corretoraavalon.com.br/ar/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="bn" href="https://corretoraavalon.com.br/bn/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="de" href="https://corretoraavalon.com.br/de/blog/stop-loss-rechner-mit-atr-wie-man-den-abstand-festlegt/">
+  <link rel="alternate" hreflang="fil" href="https://corretoraavalon.com.br/fil/blog/calculator-ng-stop-loss-gamit-ang-atr/">
+  <link rel="alternate" hreflang="fr" href="https://corretoraavalon.com.br/fr/blog/calculateur-de-stop-loss-avec-atr/">
+  <link rel="alternate" hreflang="hi" href="https://corretoraavalon.com.br/hi/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="id" href="https://corretoraavalon.com.br/id/blog/kalkulator-stop-loss-dengan-atr/">
+  <link rel="alternate" hreflang="it" href="https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/">
+  <link rel="alternate" hreflang="ru" href="https://corretoraavalon.com.br/ru/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="sv" href="https://corretoraavalon.com.br/sv/blog/stop-loss-kalkylator-med-atr/">
+  <link rel="alternate" hreflang="th" href="https://corretoraavalon.com.br/th/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="tr" href="https://corretoraavalon.com.br/tr/blog/atr-ile-stop-loss-hesaplama/">
+  <link rel="alternate" hreflang="vi" href="https://corretoraavalon.com.br/vi/blog/may-tinh-diem-cat-lo-bang-atr-cach-xac-dinh-khoang-cach/">
+  <link rel="alternate" hreflang="zh-CN" href="https://corretoraavalon.com.br/zh/blog/atr-stop-loss-calculator/">
+  <link rel="alternate" hreflang="x-default" href="https://corretoraavalon.com.br/en/blog/atr-stop-loss-calculator/">
+  <!--/hreflang-->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="author" content="Avalon">
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Calcolatrice di stop loss con ATR: come definire la distanza">
+  <meta property="og:description" content="Impara la formula dello stop basato sull'ATR, vedi un esempio risolto in reais con size di posizione e capisci perché il moltiplicatore non è fisso.">
+  <meta property="og:url" content="https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/">
+  <meta property="og:site_name" content="Avalon">
+  <meta property="og:image" content="https://corretoraavalon.com.br/assets/img/avalon-seguro-02.webp">
+  <meta property="og:image:alt" content="Avalon — Blog Avalon">
+  <meta name="twitter:image" content="https://corretoraavalon.com.br/assets/img/avalon-seguro-02.webp">
+  <meta property="og:updated_time" content="undefined">
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Calcolatrice di stop loss con ATR: come definire la distanza">
+  <meta name="twitter:description" content="Impara la formula dello stop basato sull'ATR, vedi un esempio risolto in reais con size di posizione e capisci perché il moltiplicatore non è fisso.">
+  <meta name="twitter:label1" content="Scritto da">
+  <meta name="twitter:data1" content="Avalon">
+  <meta name="twitter:label2" content="Tempo di lettura">
+  <meta name="twitter:data2" content="5 minuti">
+  <!-- ===== Ícones e PWA ===== -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1f2026">
+  <!-- ===== Performance ===== -->
+  <link rel="preload" as="font" type="font/woff2"
+        href="/assets/fonts/bricolage-grotesque-latin-var.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css?v=202610072237">
+  <!-- ===== Dados estruturados (JSON-LD) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/#artigo",
+      "headline": "Calcolatrice di stop loss con ATR: come definire la distanza",
+      "description": "Impara la formula dello stop basato sull'ATR, vedi un esempio risolto in reais con size di posizione e capisci perché il moltiplicatore non è fisso.",
+      "url": "https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/",
+      "inLanguage": "it",
+      "datePublished": "2026-09-24T09:00:00-03:00",
+      "dateModified": "2026-09-27T09:00:00-03:00",
+      "image": "https://corretoraavalon.com.br/assets/img/avalon-seguro-02.webp",
+      "articleSection": "Gestione del rischio",
+      "author": {
+        "@type": "Organization",
+        "name": "Avalon — Redazione Rischio e comportamento",
+        "url": "https://corretoraavalon.com.br/it/blog/"
+      },
+      "publisher": {
+        "@id": "https://corretoraavalon.com.br/#organization"
+      },
+      "mainEntityOfPage": "https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/",
+      "isPartOf": {
+        "@id": "https://corretoraavalon.com.br/it/blog/#blog"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://corretoraavalon.com.br/it/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://corretoraavalon.com.br/it/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Calcolatrice di stop loss con ATR: come definire la distanza",
+          "item": "https://corretoraavalon.com.br/it/blog/calcolatrice-stop-loss-con-atr/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="tema-claro">
+  <a class="skip-link" href="#conteudo">Vai al contenuto</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="site-header__left">
+        <a class="site-logo" href="/it/" aria-label="Avalon — pagina iniziale">
+          <span class="wordmark">
+          <img class="wordmark__logo" src="/assets/img/logo-avalon-escuro.png" alt="Avalon" width="109" height="32" decoding="async">
+          <span class="wordmark__text"><span class="wordmark__blog">Blog</span></span>
+        </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false"
+                aria-controls="menu-principal" aria-label="Apri il menu di navigazione"
+                data-abrir="Apri il menu di navigazione" data-fechar="Chiudi il menu di navigazione">
+          <span></span>
+        </button>
+        <details class="idioma">
+          <summary aria-label="Scegli la lingua"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="22" height="16"><span>it</span></summary>
+          <ul class="idioma__lista">
+            <li><a href="/blog/calculadora-de-stop-loss-com-atr/" hreflang="pt-BR" lang="pt-BR"><img class="bandeira" src="/assets/img/bandeiras/pt.svg" alt="" width="20" height="15" loading="lazy">Português <small>pt</small></a></li>
+            <li><a href="/en/blog/atr-stop-loss-calculator/" hreflang="en" lang="en"><img class="bandeira" src="/assets/img/bandeiras/en.svg" alt="" width="20" height="15" loading="lazy">English <small>en</small></a></li>
+            <li><a href="/es/blog/calculadora-de-stop-loss-con-atr/" hreflang="es" lang="es"><img class="bandeira" src="/assets/img/bandeiras/es.svg" alt="" width="20" height="15" loading="lazy">Español <small>es</small></a></li>
+            <li><a href="/ar/blog/atr-stop-loss-calculator/" hreflang="ar" lang="ar"><img class="bandeira" src="/assets/img/bandeiras/ar.svg" alt="" width="20" height="15" loading="lazy">العربية <small>ar</small></a></li>
+            <li><a href="/bn/blog/atr-stop-loss-calculator/" hreflang="bn" lang="bn"><img class="bandeira" src="/assets/img/bandeiras/bn.svg" alt="" width="20" height="15" loading="lazy">বাংলা <small>bn</small></a></li>
+            <li><a href="/de/blog/stop-loss-rechner-mit-atr-wie-man-den-abstand-festlegt/" hreflang="de" lang="de"><img class="bandeira" src="/assets/img/bandeiras/de.svg" alt="" width="20" height="15" loading="lazy">Deutsch <small>de</small></a></li>
+            <li><a href="/fil/blog/calculator-ng-stop-loss-gamit-ang-atr/" hreflang="fil" lang="fil"><img class="bandeira" src="/assets/img/bandeiras/fil.svg" alt="" width="20" height="15" loading="lazy">Filipino <small>fil</small></a></li>
+            <li><a href="/fr/blog/calculateur-de-stop-loss-avec-atr/" hreflang="fr" lang="fr"><img class="bandeira" src="/assets/img/bandeiras/fr.svg" alt="" width="20" height="15" loading="lazy">Français <small>fr</small></a></li>
+            <li><a href="/hi/blog/atr-stop-loss-calculator/" hreflang="hi" lang="hi"><img class="bandeira" src="/assets/img/bandeiras/hi.svg" alt="" width="20" height="15" loading="lazy">हिन्दी <small>hi</small></a></li>
+            <li><a href="/id/blog/kalkulator-stop-loss-dengan-atr/" hreflang="id" lang="id"><img class="bandeira" src="/assets/img/bandeiras/id.svg" alt="" width="20" height="15" loading="lazy">Bahasa Indonesia <small>id</small></a></li>
+            <li><a href="/it/blog/calcolatrice-stop-loss-con-atr/" hreflang="it" lang="it" aria-current="true"><img class="bandeira" src="/assets/img/bandeiras/it.svg" alt="" width="20" height="15" loading="lazy">Italiano <small>it</small></a></li>
+            <li><a href="/ru/blog/atr-stop-loss-calculator/" hreflang="ru" lang="ru"><img class="bandeira" src="/assets/img/bandeiras/ru.svg" alt="" width="20" height="15" loading="lazy">Русский <small>ru</small></a></li>
+            <li><a href="/sv/blog/stop-loss-kalkylator-med-atr/" hreflang="sv" lang="sv"><img class="bandeira" src="/assets/img/bandeiras/sv.svg" alt="" width="20" height="15" loading="lazy">Svenska <small>sv</small></a></li>
+            <li><a href="/th/blog/atr-stop-loss-calculator/" hreflang="th" lang="th"><img class="bandeira" src="/assets/img/bandeiras/th.svg" alt="" width="20" height="15" loading="lazy">ไทย <small>th</small></a></li>
+            <li><a href="/tr/blog/atr-ile-stop-loss-hesaplama/" hreflang="tr" lang="tr"><img class="bandeira" src="/assets/img/bandeiras/tr.svg" alt="" width="20" height="15" loading="lazy">Türkçe <small>tr</small></a></li>
+            <li><a href="/vi/blog/may-tinh-diem-cat-lo-bang-atr-cach-xac-dinh-khoang-cach/" hreflang="vi" lang="vi"><img class="bandeira" src="/assets/img/bandeiras/vi.svg" alt="" width="20" height="15" loading="lazy">Tiếng Việt <small>vi</small></a></li>
+            <li><a href="/zh/blog/atr-stop-loss-calculator/" hreflang="zh-CN" lang="zh-CN"><img class="bandeira" src="/assets/img/bandeiras/zh.svg" alt="" width="20" height="15" loading="lazy">简体中文 <small>zh</small></a></li>
+          </ul>
+        </details>
+      </div>
+      <nav class="site-nav" id="menu-principal" aria-label="Navigazione principale">
+        <ul>
+          <li><a href="/it/">Home</a></li>
+          <li><a href="/it/avalon-affidabile/">È affidabile?</a></li>
+          <li><a href="/it/avalon-login/">Login</a></li>
+          <li><a href="/it/avalon-broker/">Il broker</a></li>
+          <li><a href="/it/avalon-sicuro/">È sicuro?</a></li>
+          <li><a href="/it/avalon-app/">App</a></li>
+          <li><a href="/it/migliori-broker/">Migliori broker</a></li>
+          <li><a href="/it/blog/" aria-current="page">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm" href="https://trade.avalonbroker.io/it/register?afftrack=avalon"
+           target="_blank" rel="noopener sponsored nofollow">Apri un conto</a>
+        <a class="btn btn--outline btn--sm" href="/it/avalon-login/">Login</a>
+      </div>
+    </div>
+  </header>
+  <nav class="breadcrumb" aria-label="Percorso di navigazione">
+    <div class="container ap__trilha">
+      <ol>
+        <li><a href="/it/">Home</a></li>
+        <li><a href="/it/blog/">Blog</a></li>
+        <li><span aria-current="page">Calcolatrice di stop loss con ATR: come definire la distanza</span></li>
+      </ol>
+      <a class="ap__voltar" href="/it/blog/">Indietro</a>
+    </div>
+  </nav>
+  <main id="conteudo"><!--artigo-blog-->
+    <div class="ap__progresso" aria-hidden="true"><span></span></div>
+    <article class="ap" data-slug="calculadora-de-stop-loss-com-atr" data-api="https://duotide-visitas.visionxma.workers.dev" data-copiado="Link copiato">
+      <div class="container">
+        <header class="ap__cab" id="topo">
+          <div class="ap__info">
+            <div class="ap__linha">
+              <span><time datetime="2026-09-24">24 set 2026</time><span class="ap__sep">4 min di lettura</span></span>
+              <span class="ap__vis" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizzazioni</span></span>
+            </div>
+            <p class="ap__atual">Aggiornato il: <time datetime="2026-09-27">27 settembre 2026</time></p>
+            <span class="bq__tag">Gestione del rischio</span>
+            <h1>Calcolatrice di stop loss con ATR: come definire la distanza</h1>
+            <div class="ap__autor"><span class="ap__avatar" style="background:#ea580c" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><strong>Redazione Rischio e comportamento</strong><small>Sezione Avalon</small></span></div>
+          </div>
+          <figure class="ap__capa"><img src="/assets/img/avalon-seguro-02.webp" alt="" width="1024" height="512" decoding="async" fetchpriority="high"></figure>
+        </header>
+        <div class="ap__grade">
+          <aside class="ap__lado">
+            <nav class="ap__indice" aria-label="Indice">
+              <p class="ap__indice-tit">Indice</p>
+              <div class="ap__trilho"><span class="ap__barra"></span><ol>
+                <li><a href="#cosa-misura-l-atr">Cosa misura l'ATR</a></li>
+                <li><a href="#la-formula-dello-stop-basato-sull-atr">La formula dello stop basato sull'ATR</a></li>
+                <li><a href="#esempio-risolto-in-reais">Esempio risolto in reais</a></li>
+                <li><a href="#l-atr-non-sostituisce-la-struttura-del-grafico">L'ATR non sostituisce la struttura del grafico</a></li>
+                <li><a href="#non-esiste-il-moltiplicatore-perfetto">Non esiste il moltiplicatore perfetto</a></li>
+                <li><a href="#attenzione-a-gap-ed-esecuzione">Attenzione a gap ed esecuzione</a></li>
+                <li><a href="#un-ultimo-promemoria-prima-di-operare">Un ultimo promemoria prima di operare</a></li>
+              </ol></div>
+              <a class="ap__topo" href="#topo"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 17V7m-4.5 4.5L12 7l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Torna su</a>
+            </nav>
+          </aside>
+          <div class="ap__texto article">
+            
+<p>Uno dei dubbi più comuni di chi sta iniziando a operare è a quale distanza posizionare lo stop loss. Metterlo troppo vicino aumenta la probabilità di essere stoppati da un'oscillazione normale dell'asset. Metterlo troppo lontano aumenta la perdita quando l'operazione va male. Un modo pratico di rispondere a questa domanda è usare l'ATR, l'Average True Range, come riferimento di volatilità recente per calcolare la distanza dello stop.</p>
+<h2 id="cosa-misura-l-atr">Cosa misura l'ATR</h2>
+<p>L'ATR misura la dimensione media del movimento di prezzo in un determinato numero di periodi, generalmente 14. Non indica la direzione, solo quanto l'asset tende a muoversi. Per ogni candela, si calcola il True Range, che è il valore più alto tra queste tre opzioni: la differenza tra il massimo e il minimo della candela attuale, la differenza tra il massimo attuale e la chiusura precedente, e la differenza tra il minimo attuale e la chiusura precedente. L'ATR è la media di questi valori nel periodo scelto.</p>
+<h2 id="la-formula-dello-stop-basato-sull-atr">La formula dello stop basato sull'ATR</h2>
+<p><strong>Distanza dello stop = ATR x moltiplicatore</strong></p>
+<p>Per un'operazione long: <strong>Stop = prezzo di ingresso - distanza dello stop</strong></p>
+<p>Per un'operazione short: <strong>Stop = prezzo di ingresso + distanza dello stop</strong></p>
+<h2 id="esempio-risolto-in-reais">Esempio risolto in reais</h2>
+<p>Supponiamo un'operazione long su un'azione negoziata a R$ 50,00, con ATR giornaliero di R$ 1,20 e moltiplicatore di 2. La distanza dello stop risulta in:</p>
+<ul>
+<li>Distanza = R$ 1,20 x 2 = R$ 2,40</li>
+<li>Stop = R$ 50,00 - R$ 2,40 = R$ 47,60</li>
+</ul>
+<p>Ora supponiamo un conto di R$ 20.000,00, con rischio massimo dell'1% per operazione, ovvero R$ 200,00. La dimensione della posizione si calcola dividendo il rischio in reais per la distanza dello stop:</p>
+<ul>
+<li>Dimensione della posizione = R$ 200,00 / R$ 2,40 = circa 83 azioni</li>
+</ul>
+<p>Con questa posizione, se il prezzo scende fino a R$ 47,60, la perdita si avvicina ai R$ 200,00 pianificati, prima dei costi di intermediazione. Un obiettivo di riferimento di 2R, ovvero due volte il rischio assunto, si collocherebbe intorno a R$ 54,80, ma questo è solo un riferimento matematico, e non una garanzia che il prezzo arriverà fin lì.</p>
+<h2 id="l-atr-non-sostituisce-la-struttura-del-grafico">L'ATR non sostituisce la struttura del grafico</h2>
+<p>L'ATR risponde alla domanda quanto questo asset tende a muoversi. Non risponde alla domanda dove la mia idea di ingresso è sbagliata. Questa seconda domanda viene dall'analisi grafica, come un minimo precedente o una zona di supporto. La sequenza consigliata è: prima segnare il livello che invalida l'operazione, poi misurare la distanza tra l'ingresso e quel livello, e solo dopo confrontare questa distanza con l'ATR per vedere se ha senso rispetto alla volatilità recente. Se la distanza strutturale è molto minore di quanto suggerisce l'ATR, lo stop potrebbe essere troppo stretto per il rumore normale dell'asset.</p>
+<h2 id="non-esiste-il-moltiplicatore-perfetto">Non esiste il moltiplicatore perfetto</h2>
+<p>Un moltiplicatore basso crea uno stop più vicino e una posizione più grande per lo stesso rischio in reais, ma resta più esposto a oscillazioni comuni. Un moltiplicatore alto crea uno stop più distante e una posizione più piccola, riducendo le uscite per rumore, ma richiedendo che il prezzo percorra più distanza per raggiungere lo stesso risultato in multipli di rischio. Il moltiplicatore ideale dipende dall'asset, dal timeframe operato e dal tipo di setup, e vale la pena testare valori diversi sullo storico prima di adottare un numero fisso per tutte le operazioni.</p>
+<h2 id="attenzione-a-gap-ed-esecuzione">Attenzione a gap ed esecuzione</h2>
+<p>Il calcolo presuppone che la posizione venga chiusa esattamente al prezzo dello stop. Nella pratica, gap, notizie e mercati con poca liquidità possono far sì che l'esecuzione avvenga ben lontano dal prezzo pianificato, soprattutto in asset che chiudono durante la notte o il fine settimana. L'ATR aiuta a dimensionare il rischio atteso in condizioni normali, ma non elimina il rischio di un'esecuzione peggiore di quella pianificata nei momenti di stress del mercato.</p>
+<h2 id="un-ultimo-promemoria-prima-di-operare">Un ultimo promemoria prima di operare</h2>
+<p>Definisci il moltiplicatore prima di vedere la dimensione della posizione risultante, e non il contrario. Scegliere il moltiplicatore solo per arrivare a una dimensione di posizione che sembri comoda inverte la logica della gestione del rischio: è lo stop che dovrebbe definire la dimensione della posizione, non la dimensione desiderata che dovrebbe definire lo stop.</p>
+
+            <div class="bq-post__cta">
+              <p><strong>Esercitati prima di rischiare.</strong> Apri il tuo conto Avalon e prova le tue idee sul conto demo con R$ 10.000 virtuali.</p>
+              <a class="btn btn--primary" href="https://trade.avalonbroker.io/it/register?afftrack=avalon" target="_blank" rel="noopener sponsored nofollow">Crea un conto gratis</a>
+            </div>
+            <div class="ap__fim">
+              <p>Aggiornato il: <time datetime="2026-09-27">27 set 2026</time></p>
+              <div class="ap__acoes"><span class="ap__vis ap__vis--pilula" data-visitas hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M1.5 12S5.5 4.5 12 4.5 22.5 12 22.5 12 18.5 19.5 12 19.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><b></b><span class="sr-only"> visualizzazioni</span></span><button class="ap__compartilhar" type="button">Condividi <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+            </div>
+            <div class="ap__autorbox">
+              <span class="ap__avatar ap__avatar--g" style="background:#ea580c" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48"><path d="M12 3 19 6v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="m8.8 12 2.2 2.2 4.2-4.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <div><strong>Redazione Rischio e comportamento</strong><p>Scrive di gestione del rischio, dimensione della posizione e della psicologia dietro le decisioni dei trader.</p></div>
+            </div>
+          </div>
+        </div>
+        <aside class="ap__rel">
+          <h2>Articoli correlati</h2>
+          <div class="bq__grade bq__grade--3">
+            <a class="bq__card" href="/it/blog/come-usare-stop-loss-e-take-profit-nel-forex/"><img src="/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Come usare stop loss e take profit nel forex</span><span class="bq__meta">24/09/2026 · 4 min di lettura</span></a>
+            <a class="bq__card" href="/it/blog/strategia-martingale-nel-trading/"><img src="/assets/img/avalon-seguro-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Strategia martingale nel trading: come funziona e i rischi</span><span class="bq__meta">24/09/2026 · 4 min di lettura</span></a>
+            <a class="bq__card" href="/it/blog/quando-chiudere-unoperazione-segnali-di-uscita/"><img src="/assets/img/avalon-e-confiavel-02.webp" alt="" width="1024" height="512" loading="lazy" decoding="async"><span class="bq__titulo">Quando chiudere un'operazione: segnali di uscita</span><span class="bq__meta">24/09/2026 · 4 min di lettura</span></a>
+          </div>
+        </aside>
+      </div>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="site-logo"><span class="wordmark">
+            <img class="wordmark__logo" src="/assets/img/logo-avalon.png" alt="Avalon" width="137" height="40" decoding="async">
+            <span class="wordmark__text"></span>
+          </span></span>
+          <p class="footer__copy">Copyright © 2026 Avalon.<br>
+            Tutti i diritti riservati.<br>
+            Sito ufficiale.</p>
+        </div>
+        <div class="footer__nav footer__empresa">
+          <h2>Azienda</h2>
+          <ul>
+            <li><a href="/it/">Home</a></li>
+            <li><a href="/it/avalon-affidabile/">Avalon è affidabile?</a></li>
+            <li><a href="/it/avalon-login/">Metodi di accesso</a></li>
+            <li><a href="/it/avalon-broker/">Scopri il broker</a></li>
+            <li><a href="/it/avalon-sicuro/">Sicurezza del broker</a></li>
+            <li><a href="/it/avalon-app/">App</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav footer__contact">
+          <h2>Contatti</h2>
+          <p><a href="mailto:contato@corretoraavalon.com.br">contato@corretoraavalon.com.br</a></p>
+          <p class="footer__suporte"><span>Account manager 24/7</span><a href="mailto:suporte@corretoraavalon.com.br">suporte@corretoraavalon.com.br</a></p>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>Avalon opera con registrazione a Saint Vincent e Grenadine (SVG), non è autorizzata dalla Comissão de Valores Mobiliários (CVM), l'autorità di vigilanza sui mercati finanziari del Brasile, e potrebbe non essere autorizzata dall'autorità finanziaria del tuo Paese: verifica prima di aprire un conto. Nessuna informazione qui presentata deve essere interpretata come un'offerta di servizi finanziari. Non vi è alcuna garanzia che proiezioni o strategie producano risultati specifici, e le performance passate non garantiscono risultati futuri. La volatilità dei mercati può generare variazioni significative dei rendimenti. I derivati e i prodotti a leva sono strumenti complessi e comportano un rischio elevato: è essenziale essere consapevoli della possibilità di perdite, anche totali, del capitale investito. Non investire mai somme che non puoi permetterti di perdere.</p>
+        <p class="footer__links">
+          <a href="/it/avalon-domande-frequenti/">Domande frequenti</a>
+          <a href="/it/contatti/">Contatti</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <button class="to-top" type="button" aria-label="Torna all'inizio della pagina">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M12 8l-6 6 1.4 1.4L12 10.8l4.6 4.6L18 14z"/>
+    </svg>
+  </button>
+  <template id="pp-modelo">
+    <div class="pp pp--bonus" role="dialog" aria-modal="true" aria-labelledby="ppTit">
+      <div class="pp__cx" tabindex="-1">
+        <button class="pp__x" type="button" aria-label="Chiudi">&#10005;</button>
+        <div class="pp__cont">
+          <h2 id="ppTit"><span class="pp__l1">Bonus</span> <span class="pp__l2">del 100%</span></h2>
+          <p>Deposita con il codice <strong>WELCOME100</strong> e ricevi un bonus del 100% sull'importo depositato.</p>
+          <div class="pp__cupom"><span class="pp__cupom-rot">Codice</span><strong class="pp__cupom-cod">WELCOME100</strong><button class="pp__copiar" type="button" data-copiado="Copiato!">Copia</button></div>
+          <a class="pp__btn" href="https://trade.avalonbroker.io/it/register?afftrack=avalon" target="_blank" rel="noopener sponsored nofollow">Riscatta ora</a>
+          <p class="pp__mini">Soggetto alle condizioni della promozione. Il trading di prodotti con leva comporta rischio di perdita.</p>
+        </div>
+        <div class="pp__fig" aria-hidden="true">
+          <picture><source media="(max-width: 799px)" srcset="/assets/img/popup-cofre-mob.webp"><img src="/assets/img/popup-cofre.webp" alt="" width="1034" height="960" loading="lazy" decoding="async"></picture>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="/assets/js/main.js?v=202610072237" defer></script>
+</body>
+</html>
