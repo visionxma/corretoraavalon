@@ -8,7 +8,7 @@
   "data": "2026-10-09",
   "revisado": "2026-10-09",
   "resposta": "O Nikkei 225, principal índice da bolsa de Tóquio, fechou 07/10/2026 a <strong>70.035,71 pontos</strong>, alta de 35,12% sobre o fechamento do primeiro pregão do ano (51.832,80) e de 39,13% sobre o último fechamento de 2025. O recorde do ano continua sendo o de junho: 72.366,34 pontos no fechamento de 25/06.",
-  "leitura": 4,
+  "leitura": 3,
   "grafico": {
     "ativo": "^N225",
     "fonte": "yahoo",

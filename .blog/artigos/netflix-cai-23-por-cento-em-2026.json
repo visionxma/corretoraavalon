@@ -1,0 +1,26 @@
+{
+  "pauta": "netflix-cai-23-por-cento-em-2026",
+  "tipo": "noticia",
+  "slug": "netflix-cai-23-por-cento-em-2026",
+  "titulo": "Netflix cai 23% em 2026: a ação perto das mínimas do ano",
+  "descricao": "A NFLX fechou 07/10/2026 a US$ 69,70, queda de 23% no ano e de 35% desde a máxima de abril. Veja a queda de 14% em setembro e as médias móveis.",
+  "categoria": "Notícias",
+  "data": "2026-10-09",
+  "revisado": "2026-10-09",
+  "resposta": "A ação da Netflix (NFLX) fechou 07/10/2026 a <strong>US$ 69,70</strong>, queda de 23,40% sobre o primeiro pregão do ano e de 25,66% sobre o fim de 2025. Desde o maior fechamento de 2026, US$ 107,79 em 16/04, a perda é de 35,34%. Só em setembro, a ação caiu 14,15%, e o menor fechamento do ano veio em 02/10, a US$ 67,06.",
+  "leitura": 3,
+  "grafico": {
+    "ativo": "NFLX",
+    "fonte": "yahoo",
+    "indicador": "sma",
+    "inicio": "2026-01-02",
+    "fim": "2026-10-07",
+    "params": {
+      "periodos": [
+        50,
+        200
+      ]
+    }
+  },
+  "corpo": "<p>A Netflix teve um 2026 difícil na bolsa. Enquanto o S&P 500 subiu 13,97% no ano até 07/10, a ação da empresa de streaming acumulava queda de mais de 20% e negociava perto do menor preço do ano.</p>\n<p>Os números abaixo são fechamentos diários da NFLX na Nasdaq, segundo o Yahoo Finance. A queda no ano é de 23,40% quando medida contra o primeiro pregão de 2026 (US$ 90,99, em 02/01) e de 25,66% contra o último fechamento de 2025 (US$ 93,76).</p>\n<h2>Da máxima de abril ao fundo de outubro</h2>\n<p>O ano começou mal: a ação caiu 10,95% em janeiro. Fevereiro trouxe a recuperação, com alta de 15,27% no mês e o maior ganho diário do ano em 27/02, quando a ação subiu 13,77% e fechou a US$ 96,24.</p>\n<p>O pico veio em abril. Em 16/04 a NFLX fechou a US$ 107,79, o maior fechamento de 2026, com máxima de US$ 108,95 no dia. No pregão seguinte, 17/04, veio a maior queda diária do ano: 9,72%, para US$ 97,31. A partir dali, a tendência virou.</p>\n<p>Maio caiu 8,11% e junho, 17,00%. Em 30/06 a ação fechou a US$ 71,40, já 33,76% abaixo da máxima de abril. Em 17/07, outro tombo forte, de 7,26% no dia, levou a ação a US$ 68,95, com mínima intradiária de US$ 65,08, a menor cotação do ano.</p>\n<h2>O que o gráfico mostra</h2>\n<!--grafico-->\n<p>O gráfico traz as velas diárias da NFLX de 02/01 a 07/10/2026, com as médias móveis simples de 50 e 200 dias. Dois detalhes chamam a atenção:</p>\n<h3>Abaixo da média de 200 dias quase o ano todo</h3>\n<p>Em 2026, a ação fechou acima da média de 200 dias em apenas dois pregões: 15 e 16/04, justamente no pico. Em 17/04 voltou para baixo dela e não retornou. A média de 50 dias também ficou abaixo da de 200 dias durante todo o período do gráfico, sem nenhum cruzamento.</p>\n<h3>A reação de agosto que não passou da média de 200</h3>\n<p>Depois do fundo de julho, a ação subiu 17,55% até 31/08 (US$ 81,05) e chegou a US$ 83,60 em 03/09. Mesmo nesse momento, ficou abaixo da média de 200 dias, que estava em US$ 87,04 em 03/09.</p>\n<h2>Setembro: queda de 14%</h2>\n<p>A ação começou setembro a US$ 80,81 e teve o melhor fechamento do mês em 02/09, a US$ 82,73. Em 04/09 caiu 5,35%, para US$ 78,25, e passou o resto do mês em queda gradual, com um tombo de 4,67% em 18/09 (US$ 71,79). Setembro terminou a US$ 69,58, queda de 14,15% no mês.</p>\n<p>O menor fechamento do ano veio logo depois, em 02/10, a US$ 67,06. Nos pregões seguintes, a ação reagiu um pouco e fechou 07/10 a US$ 69,70, 3,94% acima desse fundo. Ainda assim, estava 7,58% abaixo da média de 50 dias (US$ 75,42) e 16,71% abaixo da de 200 dias (US$ 83,68).</p>\n<h2>Como ler esse quadro</h2>\n<ul class=\"check-list\">\n<li><strong>Tendência de baixa no gráfico diário:</strong> preço abaixo das duas médias, com a de 50 abaixo da de 200, descreve uma ação em queda. Não diz quando a queda termina.</li>\n<li><strong>Fundo testado:</strong> a região de US$ 65 a US$ 67, das mínimas de julho e de outubro, virou a referência mais próxima para quem acompanha a ação.</li>\n<li><strong>Dias de resultado:</strong> as maiores variações diárias do ano foram concentradas em poucos pregões. Empresas como a Netflix costumam divulgar resultados trimestrais em meados de janeiro, abril, julho e outubro; confira a data exata no site de relações com investidores da empresa.</li>\n</ul>\n<p>Os dados de preço não explicam o motivo da queda, e este texto não atribui causa a ela. Os números descrevem o que aconteceu até 07/10/2026 e não indicam o que vem depois. Para estudar o movimento, abra o gráfico da NFLX na conta demo com as médias de 50 e 200 dias e anote como o preço se comporta perto da região das mínimas do ano.</p>"
+}

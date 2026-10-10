@@ -1,0 +1,25 @@
+{
+  "pauta": "small-caps-russell-2000-terceiro-trimestre-2026",
+  "tipo": "noticia",
+  "slug": "small-caps-russell-2000-terceiro-trimestre-2026",
+  "titulo": "Small caps em 2026: Russell 2000 cai 7,5% no 3º trimestre",
+  "descricao": "O Russell 2000 caiu 7,52% no 3º trimestre de 2026, do recorde de agosto a 2.796 pontos, enquanto o S&P 500 subiu 2%. Veja os números e o gráfico.",
+  "categoria": "Notícias",
+  "data": "2026-10-09",
+  "revisado": "2026-10-09",
+  "resposta": "O Russell 2000, índice das pequenas empresas americanas (small caps), caiu <strong>7,52% no terceiro trimestre de 2026</strong>, de 3.024,37 para 2.796,86 pontos. No mesmo período, o S&P 500 subiu 2,03% e o Nasdaq, 2,47%. Em 07/10, o índice fechou a 2.793,20 pontos, 8,97% abaixo do recorde de 14/08.",
+  "leitura": 3,
+  "grafico": {
+    "ativo": "^RUT",
+    "fonte": "yahoo",
+    "indicador": "sma",
+    "inicio": "2026-04-01",
+    "fim": "2026-10-07",
+    "params": {
+      "periodos": [
+        50
+      ]
+    }
+  },
+  "corpo": "<p>O terceiro trimestre de 2026 separou as grandes e as pequenas empresas da bolsa americana. Enquanto o S&P 500 renovava recordes em agosto e de novo em outubro, o Russell 2000, que reúne cerca de 2.000 empresas de menor valor de mercado, marcou o seu pico em meados de agosto e passou o resto do período em queda.</p>\n<p>Os números abaixo são fechamentos diários do Yahoo Finance. O terceiro trimestre vai do fechamento de 30/06 ao de 30/09.</p>\n<h2>Os números do trimestre</h2>\n<ul class=\"check-list\">\n<li><strong>Russell 2000: −7,52%.</strong> De 3.024,37 pontos em 30/06 para 2.796,86 em 30/09.</li>\n<li><strong>S&P 500: +2,03%.</strong> De 7.499,36 para 7.651,54 pontos.</li>\n<li><strong>Nasdaq: +2,47%.</strong> De 26.213,72 para 26.861,06 pontos.</li>\n<li><strong>S&P 500 de peso igual (ETF RSP): −2,23%.</strong> De US$ 212,77 para US$ 208,02.</li>\n</ul>\n<p>O último item ajuda a entender o quadro. No S&P 500 tradicional, as maiores empresas pesam mais; na versão de peso igual, cada uma das 500 conta o mesmo. Quando a versão de peso igual cai enquanto o índice tradicional sobe, a alta está concentrada nas maiores. No trimestre, as pequenas ficaram ainda mais para trás.</p>\n<h2>O caminho no gráfico</h2>\n<!--grafico-->\n<p>O gráfico mostra as velas diárias do Russell 2000 de abril a outubro de 2026, com a média móvel simples de 50 dias.</p>\n<h3>Abril a junho: a alta forte</h3>\n<p>Antes da queda, as small caps tiveram um segundo trimestre excelente: alta de 21,15%, de 2.496,37 pontos em 31/03 para 3.024,37 em 30/06. O índice fechou acima da média de 50 dias de 08/04 até 23/07, sem interrupção.</p>\n<h3>Julho e agosto: o pico</h3>\n<p>Em julho, o índice oscilou em torno da média de 50 dias e terminou o mês com queda de 3,08%. Em agosto, voltou a subir e marcou o recorde em 14/08: fechamento de 3.068,42 pontos e máxima de 3.069,71, o maior nível da história do índice. Naquele dia, a média de 50 dias estava em 2.970,05.</p>\n<h3>Setembro: queda em degraus</h3>\n<p>Em 28/08 o índice fechou abaixo da média de 50 dias (2.972,37 contra 2.992,10) e não voltou mais para cima dela até 07/10. Setembro teve queda de 5,40%, com fechamentos cada vez mais baixos: 2.920 pontos em 01/09, 2.891 em 10/09, 2.839 em 23/09 e 2.797 em 30/09.</p>\n<p>Um detalhe chama a atenção: a queda foi gradual. Desde julho, o pior dia do índice foi 23/09, com recuo de 1,77%. Não houve tombo; houve uma sequência longa de dias fracos.</p>\n<h2>Onde o índice estava em 07/10</h2>\n<p>Nos primeiros pregões de outubro, o Russell 2000 reagiu até 2.847,14 pontos em 05/10, mas voltou a cair e fechou 07/10 a 2.793,20, o menor fechamento desde 19/05. A média de 50 dias estava em 2.936,04, cerca de 5% acima do preço.</p>\n<p>No ano, o índice ainda acumula alta de 12,54% sobre o fim de 2025 (2.481,91 pontos), resultado próximo ao do S&P 500. A diferença é que quase todo o ganho do ano das small caps veio do segundo trimestre, e parte dele foi devolvida no terceiro.</p>\n<h2>Como ler esse quadro</h2>\n<ul class=\"check-list\">\n<li><strong>Divergência entre índices:</strong> quando as grandes sobem e as pequenas caem, a alta da bolsa fica mais estreita, dependente de menos empresas. Isso descreve o mercado no período; não prevê o que vem depois.</li>\n<li><strong>Média de 50 dias:</strong> o índice está abaixo dela desde 28/08. Uma volta para cima dela seria o primeiro sinal técnico de mudança; até lá, o gráfico diário mostra tendência de baixa de curto prazo.</li>\n<li><strong>Volatilidade baixa na queda:</strong> sem dias de pânico, a queda de setembro pode passar despercebida para quem só olha as manchetes, mas somou quase 9% desde o recorde.</li>\n</ul>\n<p>Os dados de preço não explicam o motivo da diferença entre grandes e pequenas empresas, e este texto não atribui causa a ela. Os números descrevem o que aconteceu até 07/10/2026 e não indicam o que vem depois. Para acompanhar, abra lado a lado na conta demo os gráficos do Russell 2000 e do S&P 500 e anote, semana a semana, qual dos dois se move mais.</p>"
+}
