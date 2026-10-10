@@ -1,0 +1,26 @@
+{
+  "pauta": "libra-esterlina-em-2026-gbp-usd",
+  "tipo": "noticia",
+  "slug": "libra-esterlina-em-2026-gbp-usd",
+  "titulo": "Libra em 2026: GBP/USD perde força e ronda 1,33 em outubro",
+  "descricao": "O GBP/USD saiu da máxima de 1,3847 em janeiro para 1,3267 em 07/10/2026. Veja a trajetória, as médias de 50 e 200 dias e as faixas do ano.",
+  "categoria": "Notícias",
+  "data": "2026-10-09",
+  "revisado": "2026-10-09",
+  "resposta": "A libra esterlina fechou 07/10/2026 a <strong>1,3267 dólar</strong>, queda de 1,49% no ano e 4,04% abaixo do maior fechamento de 2026 (1,3825, em 29/01). Desde 17/09 o par fecha abaixo das médias de 50 e 200 dias, que em 07/10 estavam em 1,3453 e 1,3443 e andaram quase de lado ao longo do ano.",
+  "leitura": 4,
+  "grafico": {
+    "ativo": "GBPUSD=X",
+    "fonte": "yahoo",
+    "indicador": "sma",
+    "inicio": "2026-01-02",
+    "fim": "2026-10-07",
+    "params": {
+      "periodos": [
+        50,
+        200
+      ]
+    }
+  },
+  "corpo": "<p>O par GBP/USD, que mostra quantos dólares compram uma libra esterlina, começou 2026 em alta, mas passou o resto do ano preso numa faixa e terminou setembro perto da parte de baixo dela. Em 07/10/2026, a libra valia 1,3267 dólar, contra 1,3467 no último fechamento de 2025.</p>\n<p>Os números abaixo são os fechamentos diários do Yahoo Finance. No câmbio dessa fonte, fechamento, máxima e mínima são confiáveis; por isso o texto usa só esses três valores.</p>\n<h2>Da máxima de janeiro à faixa de 1,33</h2>\n<p>A libra subiu 2,66% em janeiro e marcou o maior fechamento do ano em 29/01, a 1,3825, com máxima intradiária de 1,3847 no mesmo dia. Foi o ponto mais alto de 2026 até agora.</p>\n<p>Depois disso, o par caiu por dois meses seguidos: 2,28% em fevereiro e 2,36% em março. O fechamento de 31/03, a 1,3173, ficou 4,72% abaixo da máxima de janeiro. Em abril houve reação até 1,3599 (máxima de 17/04), mas ela não se sustentou.</p>\n<p>A menor cotação do ano veio no fim de junho: mínima de 1,3143 em 24/06 e menor fechamento, 1,3167, em 25/06. Entre o pico de janeiro e o fundo de junho, a distância foi de pouco mais de cinco centavos de dólar por libra.</p>\n<h2>O que o gráfico mostra</h2>\n<!--grafico-->\n<p>O gráfico traz as velas diárias de janeiro a outubro com a média móvel simples de 50 dias e a de 200 dias. O detalhe mais visível é que as médias quase não saíram do lugar. A de 200 dias oscilou entre 1,3369 e 1,3453 no ano inteiro, menos de um centavo; a de 50 dias, mais rápida, ficou entre 1,3270 (em janeiro) e 1,3537 (em março). Em 07/10, a de 50 dias estava em 1,3453 e a de 200 dias, em 1,3443.</p>\n<h3>Médias coladas, cruzamentos em série</h3>\n<p>Com as médias tão próximas, elas se cruzaram cinco vezes em 2026: para cima em 03/02, 13/05 e 03/09, e para baixo em 24/04 e 10/07. Nenhum desses cruzamentos marcou o início de uma tendência duradoura. É o retrato de um mercado lateral, em que sinais de média móvel perdem valor.</p>\n<h3>Setembro: a queda para baixo das médias</h3>\n<p>O par começou setembro a 1,3550 e, na primeira quinzena, fechou sempre entre 1,3484 e 1,3552. A partir de 16/09 veio a queda: em 17/09 o fechamento caiu para 1,3383, recuo de 0,67% no dia, e em 24/09 houve outro recuo forte, de 1,3343 para 1,3242 (−0,76%). Em 25/09 o par fechou a 1,3211, 2,52% abaixo de 10/09. Setembro terminou com queda de 2,27%, a 1,3233.</p>\n<p>Desde 17/09, foram 15 pregões seguidos de fechamento abaixo da média de 200 dias, até 07/10.</p>\n<h3>Outubro: tentativa de estabilizar</h3>\n<p>Nos primeiros pregões de outubro, o par oscilou entre 1,3182 (mínima de 02/10) e 1,3287 (máxima de 06/10), e fechou 07/10 a 1,3267, 0,76% acima do menor fechamento do ano. Ou seja: a libra ronda a faixa de 1,32 a 1,33, perto do piso de junho, sem ter voltado para cima das médias.</p>\n<h2>Como ler esse quadro</h2>\n<p>Três observações ajudam a interpretar o ano do GBP/USD sem forçar conclusões:</p>\n<ul class=\"check-list\">\n<li><strong>Faixa de negociação:</strong> de janeiro a outubro, o par oscilou entre 1,3143 e 1,3847. Os extremos dessa faixa funcionaram como referência para quem opera o par.</li>\n<li><strong>Médias de lado:</strong> quando as médias de 50 e 200 dias andam juntas e planas, o cruzamento entre elas diz pouco. Elas voltam a ser úteis quando se afastam e ganham inclinação.</li>\n<li><strong>Preço abaixo das médias:</strong> desde meados de setembro, o fechamento está abaixo das duas. Isso descreve o momento, não garante a continuação da queda.</li>\n</ul>\n<p>Este texto não atribui causa aos movimentos: os números mostram o que o preço fez, não por quê. Decisões de juros do Banco da Inglaterra e do Fed, além de dados de inflação, costumam mexer com o par; confira as datas no calendário econômico oficial.</p>\n<p>Os dados descrevem o que aconteceu até 07/10/2026 e não preveem o próximo movimento. Para praticar, abra o GBP/USD diário na conta demo, adicione as médias de 50 e 200 dias e anote como o preço se comporta perto de 1,3143 e de 1,3847.</p>"
+}
