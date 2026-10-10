@@ -338,7 +338,7 @@
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/</loc>
-		<lastmod>2026-10-09T12:00:00-03:00</lastmod>
+		<lastmod>2026-10-10T12:00:00-03:00</lastmod>
 		<xhtml:link rel="alternate" hreflang="pt-BR" href="https://corretoraavalon.com.br/blog/"/>
 		<xhtml:link rel="alternate" hreflang="en" href="https://corretoraavalon.com.br/en/blog/"/>
 		<xhtml:link rel="alternate" hreflang="es" href="https://corretoraavalon.com.br/es/blog/"/>
@@ -397,7 +397,7 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-vale-a-pena.webp</image:loc>
@@ -412,7 +412,10 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-e-confiavel-03.webp</image:loc>
@@ -421,10 +424,7 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-seguranca.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
@@ -433,7 +433,10 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-seguro-02.webp</image:loc>
@@ -442,34 +445,31 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-cripto-corretora-ou-exchange.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-o-que-e.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/ativos/btc.svg</image:loc>
@@ -651,14 +651,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/anthropic-ipo-what-we-know-so-far/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/why-is-nike-stock-down-sp-100-removal-explained/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -742,14 +742,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-after-hours-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-understand-a-market-quote/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -854,7 +854,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/essential-books-for-beginner-traders/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -931,14 +931,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/trading-tools-how-to-choose-the-right-ones/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/safety-first-how-to-avoid-trading-scams/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -973,7 +973,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/brent-vs-wti-oil-differences-explained/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -994,7 +994,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/etfs-the-most-diversified-instrument-for-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1043,7 +1043,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/best-technical-indicators-for-forex-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1113,14 +1113,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-trade-gold-and-silver/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/most-traded-forex-pairs-characteristics/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1148,7 +1148,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-trade-basic-concepts-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1190,7 +1190,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-binary-options-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1204,7 +1204,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/beginners-guide-to-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1218,14 +1218,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/binary-options-step-by-step-and-risk-management/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/best-time-to-trade-the-forex-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1239,7 +1239,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/digital-options-how-they-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1281,7 +1281,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-trade-indices-complete-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1295,7 +1295,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/4-classic-trading-books/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1309,7 +1309,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-otc-market-weekend-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1330,7 +1330,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-trade-commodities-complete-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1351,7 +1351,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-plan-your-start-in-trading-this-year/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1393,14 +1393,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/short-term-stock-trading-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-diversify-your-trading-with-etfs/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1414,7 +1414,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/5-tips-to-trade-more-efficiently/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1435,14 +1435,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/5-options-strategies-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-spread-and-how-it-affects-your-trades/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1456,7 +1456,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-are-binary-options-and-how-do-they-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1477,28 +1477,28 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-trade-cfds-in-practice/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-evaluate-an-etf-before-investing/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-day-trading-and-who-its-for/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/forex-for-beginners-how-the-currency-market-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1512,7 +1512,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/traditional-options-fundamentals-guide/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1526,7 +1526,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-market-makers-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1547,21 +1547,21 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-high-frequency-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-are-dark-pools-in-the-financial-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-hedge-a-portfolio-using-options/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1582,14 +1582,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-a-trading-signal/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-quantitative-easing/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1610,14 +1610,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/understanding-spread-betting/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/ivv-vs-spy-vs-voo-sp-500-etfs/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1638,7 +1638,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/fiscal-years-and-quarters-guide-for-investors/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1659,7 +1659,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-a-stop-limit-order/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1673,7 +1673,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-are-exotic-options/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-02.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1694,7 +1694,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/currency-trading-how-the-forex-market-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1708,14 +1708,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/demo-account-how-to-use-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/big-tech-earnings-season/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1736,7 +1736,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-start-trading-with-little-money/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1785,7 +1785,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/gold-vs-bitcoin-which-to-trade/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1799,7 +1799,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/penny-stocks-what-they-are-and-the-risks/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1813,7 +1813,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/best-times-to-trade-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1841,7 +1841,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-calculate-pip-value-in-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1855,70 +1855,70 @@
 		<loc>https://corretoraavalon.com.br/en/blog/swap-rate-how-to-calculate-overnight-cost/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/oracle-orcl-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/eli-lilly-lly-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/spacex-speculative-bubble-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/does-the-world-cup-affect-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/catl-battery-threatens-tesla-lead/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/spacex-ipo-valuation-and-risks/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/mega-ipo-season-spacex-openai-anthropic/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/nike-nke-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/micron-mu-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1939,28 +1939,28 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-calculate-forex-spread/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/stock-market-terms-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/ionq-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/vertiv-vrt-stock-analysis-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1981,28 +1981,28 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-ai-trading-bots-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/5-categories-of-ai-stocks/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/market-holidays-and-trading-hours/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/options-greeks-for-beginners/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2030,21 +2030,21 @@
 		<loc>https://corretoraavalon.com.br/en/blog/gamma-squeeze-vs-short-squeeze-differences/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/cpi-nfp-or-fomc-what-moves-forex-the-most/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-market-liquidity/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2072,42 +2072,42 @@
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-equity-trading-stock-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/meme-stocks-in-2026-what-they-are-and-the-risks/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/ai-stocks-to-watch-in-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-is-pre-market-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/nvidia-still-worth-watching/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/tv-shows-and-movies-about-the-financial-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2121,28 +2121,28 @@
 		<loc>https://corretoraavalon.com.br/en/blog/etf-or-mutual-fund-the-differences/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/what-really-moves-commodity-prices/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-futures-contracts-work/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/semiconductor-sector-how-to-analyze-it/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2163,21 +2163,21 @@
 		<loc>https://corretoraavalon.com.br/en/blog/understanding-the-pip-in-forex/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/etfs-for-beginners-how-trading-works/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/how-many-trading-days-are-there-in-2026/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2205,14 +2205,14 @@
 		<loc>https://corretoraavalon.com.br/en/blog/how-to-analyze-stocks-before-trading/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://corretoraavalon.com.br/en/blog/lessons-from-peter-lynch-and-jesse-livermore/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -2226,7 +2226,7 @@
 		<loc>https://corretoraavalon.com.br/en/blog/bull-market-vs-bear-market/</loc>
 		<lastmod>2026-09-24T09:00:00-03:00</lastmod>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
 		</image:image>
 	</url>
 </urlset>

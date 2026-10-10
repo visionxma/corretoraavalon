@@ -358,6 +358,9 @@
 		<xhtml:link rel="alternate" hreflang="zh-CN" href="https://corretoraavalon.com.br/zh/blog/"/>
 		<xhtml:link rel="alternate" hreflang="x-default" href="https://corretoraavalon.com.br/en/blog/"/>
 		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-gestao-de-risco-stop-e-posicao.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -373,28 +376,46 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-near-dispara-parceria-ondo-acoes-tokenizadas.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-analise-tecnica-e-fundamentalista.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-titulos-globais-caem-apostas-fed.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-vale-a-pena.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-divida-global-passa-365-trilhoes.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-vale-a-pena.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-04.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-por-que-iniciante-perde-dinheiro.webp</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-futuros-nasdaq-caem-juros-treasuries.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-corretora-offshore-o-que-e.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-seguro-02.webp</image:loc>
@@ -406,9 +427,6 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-e-confiavel-02.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-alphabet-recua-na-bolsa-gastos-com-ia.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-bitcoin-perde-83750-juros-dos-eua-pressionam.webp</image:loc>
 		</image:image>
 		<image:image>
@@ -416,9 +434,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-pesquisa-investidores-cripto-regulacao.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-petroleo-sobe-impasse-eua-ira.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/noticia-portugal-muda-calendario-iuc.webp</image:loc>
@@ -430,13 +445,10 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-03.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-01.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-day-trade-ou-swing-trade.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-como-escolher-uma-corretora.webp</image:loc>
+			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-e-confiavel-03.webp</image:loc>
@@ -445,28 +457,16 @@
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-seguranca.webp</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-01.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-abrir-conta.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-slippage-e-execucao-de-ordem.webp</image:loc>
-		</image:image>
-		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-app-04.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-corretora-03.webp</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-kyc-por-que-pedem-documento.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/capas/blog-saque-nao-caiu-o-que-fazer.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://corretoraavalon.com.br/assets/img/terra.webp</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://corretoraavalon.com.br/assets/img/avalon-login-01.webp</image:loc>
