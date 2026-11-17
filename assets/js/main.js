@@ -89,7 +89,7 @@
   }
 
   /* ----------------------------------------------------------------------
-     Pop-up de boas-vindas (no estilo do safirion.com.br)
+     Pop-up de boas-vindas (padrão da rede)
      Abre uma vez por sessão: em 2 s ou aos 35% de rolagem, o que vier primeiro.
      O conteúdo vem do <template id="pp-modelo"> da página, já no idioma dela.
      Console: avalonPopup.abrir() / .limpar() / .estado()

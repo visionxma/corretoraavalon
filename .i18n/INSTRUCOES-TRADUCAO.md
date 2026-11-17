@@ -34,7 +34,7 @@ Cada arquivo de página tem quatro blocos. Mantenha os marcadores exatamente:
    nem remova elementos, nem mesmo `<strong>`, `<br>` ou `<a>`. Os links internos
    continuam apontando para o caminho em português (`/avalon-saque/`); o montador
    converte depois para a versão no seu idioma.
-3. Os links de cadastro (`https://trade.safirion.com/…`) ficam intocados.
+3. Os links de cadastro (`https://trade.avalonbroker.io/pt/register?afftrack=avalon`) ficam intocados.
 4. HTML válido: `&` dentro de texto como `&amp;`; nunca `<` ou `>` soltos.
 5. `title` e `description` sem aspas duplas (`"`) e sem `<` `>`.
 6. Código de programa, URLs e domínios exibidos como texto (ex.: `cvm.gov.br`)
@@ -60,7 +60,7 @@ Cada arquivo de página tem quatro blocos. Mantenha os marcadores exatamente:
   `description` (ideal ≤ 155) devem usar os termos que as pessoas realmente buscam no
   seu idioma (ex.: en "Is Avalon Legit?", "Avalon Review"; es "¿Avalon es
   confiable?"). O `h1` segue a mesma ideia.
-- **Nomes próprios** ficam: Avalon, Safirion, Avalon, Obynex, Avalon, On Broker,
+- **Nomes próprios** ficam: Avalon, Avalon, Avalon, Obynex, Avalon, On Broker,
   Avalon, TradingView, InfoMoney, Money Times, Investing.com, Reclame Aqui, Pix.
   Siglas como KYC, 2FA, CVM, SVG, CDI, Selic, IPCA ficam; explique na primeira vez
   em que aparecem na página se o leitor do seu idioma não as conhece.

@@ -6,7 +6,7 @@ const path = require('path');
 const RAIZ = path.join(__dirname, '..');
 const SITE = 'https://corretoraavalon.com.br';
 const PASTA = path.join(__dirname, 'artigos');
-const AFF_BASE = 'https://trade.safirion.com/register?aff=818084&aff_model=revenue&afftrack=avalon';
+const AFF_BASE = 'https://trade.avalonbroker.io/pt/register?afftrack=avalon';
 const affDe = pasta => `https://trade.avalonbroker.io/${pasta || 'pt'}/register?afftrack=avalon`;
 const IDIOMAS = JSON.parse(fs.readFileSync(path.join(RAIZ, '.i18n/idiomas.json'), 'utf8'));
 const TRAD = path.join(__dirname, 'traducoes');

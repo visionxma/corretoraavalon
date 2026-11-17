@@ -855,7 +855,7 @@ body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;
 .hero__media{display:flex;justify-content:center;align-items:center}
 .hero__media img{width:min(300px,70%);height:auto;padding:9px;border-radius:44px;background:linear-gradient(145deg,#2a2d31,#0f1211);box-shadow:inset 0 0 0 2px #3a3e44,0 40px 90px rgba(0,0,0,.75),0 0 80px rgba(26,209,148,.18);mix-blend-mode:normal;transform:rotate(-4deg);animation:flutua 7s ease-in-out infinite}
 @media (max-width:760px){.hero__media img{width:min(230px,62%);border-radius:36px}}
-/* ---------- pop-up no molde do safirion.com, cores da Avalon ---------- */
+/* ---------- pop-up no molde da rede, cores da Avalon ---------- */
 .pp--bonus{background:radial-gradient(ellipse 60% 55% at 50% 50%,rgba(14,40,31,.55),rgba(0,0,0,.9) 75%),rgba(0,0,0,.85)}
 .pp--bonus .pp__cx{max-width:960px;background:radial-gradient(520px 420px at 78% 70%,rgba(26,209,148,.2),transparent 70%),#030504;border:1px solid rgba(255,255,255,.1);border-radius:22px;overflow:hidden}
 .pp--bonus .pp__cont{gap:22px}
